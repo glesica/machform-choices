@@ -6,8 +6,8 @@ Installation:
 
 1) Insert the following in edit_form.php inside the fieldset for drop down list choices (around line 339)
 
-<label for="quick_choices">Quick Choices</label><br />
-<textarea class="textarea" style="width:200px;" id="quick_choices"></textarea>                                 
+    <label for="quick_choices">Quick Choices</label><br />
+    <textarea class="textarea" style="width:200px;" id="quick_choices"></textarea>                                 
 <div class="buttons"><a id="qc_insert">Insert</a> <a id="qc_delete_all">Delete All</a></div>
 
 2) Place a copy of this file in the js directory of your Machform install
